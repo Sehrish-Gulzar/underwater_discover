@@ -12,11 +12,11 @@ class DiscoverMoreButton extends StatelessWidget {
       width: double.infinity,
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
-            animationDuration: Duration(milliseconds: 500),
+            animationDuration: const Duration(milliseconds: 500),
             elevation: 10,
             backgroundColor: Colors.transparent),
         onPressed: () {},
-        child: Text(
+        child: const Text(
           "Discover More",
           style: TextStyle(
             fontSize: 12,

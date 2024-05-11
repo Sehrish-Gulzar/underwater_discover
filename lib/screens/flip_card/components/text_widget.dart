@@ -23,7 +23,7 @@ class TextWidget extends StatelessWidget {
             Container(
               child: Text(
                 widget.candidate.title,
-                style: TextStyle(
+                style: const TextStyle(
                     fontSize: 22,
                     fontWeight: FontWeight.bold,
                     color: Colors.white),
@@ -32,7 +32,7 @@ class TextWidget extends StatelessWidget {
             Container(
               child: Text(
                 widget.candidate.subtitle,
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 16,
                   color: Colors.white,
                 ),

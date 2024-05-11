@@ -32,7 +32,7 @@ class _FlipCardAnimationPageState extends State<FlipCardAnimation> {
         child: Container(
           decoration: BoxDecoration(
             image: DecorationImage(
-                image: AssetImage(
+                image: const AssetImage(
                   "assets/images/pexels-scottwebb-137613.jpg",
                 ),
                 fit: BoxFit.cover,
@@ -46,7 +46,7 @@ class _FlipCardAnimationPageState extends State<FlipCardAnimation> {
               child: Column(
                 children: [
                   SizedBox(height: SizeHeight.height(context, 0.05)),
-                  HeadindText(),
+                  const HeadindText(),
                   SizedBox(height: SizeHeight.height(context, 0.05)),
                   AppinoCardSwiper(controller: controller),
                 ],

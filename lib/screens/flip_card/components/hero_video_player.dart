@@ -37,7 +37,7 @@ class HeroVideoPlayer extends StatelessWidget {
             );
           }
           // If the future is not done, return an empty container
-          return Container(child: Center(child: CircularProgressIndicator()));
+          return Container(child: const Center(child: CircularProgressIndicator()));
         },
       ),
     );

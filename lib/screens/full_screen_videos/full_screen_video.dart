@@ -35,7 +35,7 @@ class FullScreenVideo extends StatelessWidget {
               borderRadius: BorderRadius.circular(10),
             ),
           ),
-          BGBlackShade(),
+          const BGBlackShade(),
           DetailText(
             details: details,
             subtitle: subtitle,

@@ -28,7 +28,7 @@ class DetailText extends StatelessWidget {
           children: [
             Text(
               title,
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
@@ -36,22 +36,22 @@ class DetailText extends StatelessWidget {
             ),
             Text(
               subtitle,
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 16,
                 color: Colors.white,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
             Text(
               details,
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 12,
                 color: Colors.white,
               ),
             ),
-            DiscoverMoreButton()
+            const DiscoverMoreButton()
           ],
         ),
       ),

@@ -12,7 +12,7 @@ class HeadindText extends StatelessWidget {
         Align(
           alignment: Alignment.topCenter,
           child: Container(
-            child: Text(
+            child: const Text(
               "DISCOVER",
               style: TextStyle(
                   fontSize: 22,

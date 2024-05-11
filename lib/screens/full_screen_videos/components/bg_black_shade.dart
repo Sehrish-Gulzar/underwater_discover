@@ -11,7 +11,7 @@ class BGBlackShade extends StatelessWidget {
       top: 40,
       left: 20,
       child: IconButton(
-        icon: Icon(Icons.close),
+        icon: const Icon(Icons.close),
         onPressed: () {
           Navigator.pop(context);
         },
