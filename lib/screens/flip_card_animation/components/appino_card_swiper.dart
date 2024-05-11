@@ -21,10 +21,10 @@ class AppinoCardSwiper extends StatelessWidget {
         height: MediaQuery.of(context).size.height * .75,
         child: Padding(
           padding: EdgeInsets.only(
-            left: SizeWidth.width(context, 0.1),
-            right: SizeWidth.width(context, 0.1),
-            top: SizeHeight.height(context, 0.01),
-            bottom: SizeHeight.height(context, 0.09),
+            left: SizeWidth.width(context, 0.06),
+            right: SizeWidth.width(context, 0.06),
+            top: SizeHeight.height(context, 0.06),
+            bottom: SizeHeight.height(context, 0.06),
           ),
           child: AppinioSwiper(
             invertAngleOnBottomDrag: true,

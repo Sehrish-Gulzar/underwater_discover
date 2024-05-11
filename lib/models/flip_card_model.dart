@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 class FlipCardModel {
   final LinearGradient? color;
@@ -27,7 +27,7 @@ List<FlipCardModel> candidates = [
           '- Characterized by a translucent bell-shaped body and trailing tentacles armed with venomous cells called nematocysts.\n'
           '- Move through the water by pulsating their bell-shaped body.\n'),
   FlipCardModel(
-      color: gradientPink,
+      color: gradientdarkBlue,
       videoUrl: 'assets/videos/5302702-sd_360_640_30fps.mp4',
       title: "CLOWN FISH",
       subtitle: "Amphiprioninae",
@@ -38,7 +38,7 @@ List<FlipCardModel> candidates = [
           '- They are immune to the stinging cells of sea anemones due to a layer of mucus on their skin.\n'),
 
   FlipCardModel(
-      color: gradientPurple,
+      color: kNewFeedCardColorsIdentityGradient,
       videoUrl: 'assets/videos/17838306-sd_360_640_30fps.mp4',
       title: "DOLPHINE",
       subtitle: " Delphinidae",
@@ -50,47 +50,20 @@ List<FlipCardModel> candidates = [
   // Add more FlipCardModel instances as needed
 ];
 
-const LinearGradient gradientRed = LinearGradient(
+const LinearGradient gradientdarkBlue = LinearGradient(
   begin: Alignment.topCenter,
   end: Alignment.bottomCenter,
-  colors: [
-    Color(0xFFFF3868),
-    Color(0xFFFFB49A),
-  ],
-);
-
-const LinearGradient gradientPurple = LinearGradient(
-  begin: Alignment.topCenter,
-  end: Alignment.bottomCenter,
-  colors: [
-    Color(0xFF736EFE),
-    Color(0xFF62E4EC),
-  ],
+  colors: [Color(0xFF041430), Colors.black],
 );
 
 const LinearGradient gradientBlue = LinearGradient(
   begin: Alignment.topCenter,
   end: Alignment.bottomCenter,
-  colors: [
-    Color(0xFF0BA4E0),
-    Color(0xFFA9E4BD),
-  ],
-);
-
-const LinearGradient gradientPink = LinearGradient(
-  begin: Alignment.topCenter,
-  end: Alignment.bottomCenter,
-  colors: [
-    Color(0xFFFF6864),
-    Color(0xFFFFB92F),
-  ],
+  colors: [Color(0xFF0BA4E0), Colors.black],
 );
 
 const LinearGradient kNewFeedCardColorsIdentityGradient = LinearGradient(
   begin: Alignment.topCenter,
   end: Alignment.bottomCenter,
-  colors: [
-    Color(0xFF7960F1),
-    Color(0xFFE1A5C9),
-  ],
+  colors: [Color(0xFF7960F1), Colors.black],
 );

@@ -45,7 +45,7 @@ class _FlipCardAnimationPageState extends State<FlipCardAnimation> {
             body: SingleChildScrollView(
               child: Column(
                 children: [
-                  SizedBox(height: SizeHeight.height(context, 0.02)),
+                  SizedBox(height: SizeHeight.height(context, 0.05)),
                   HeadindText(),
                   SizedBox(height: SizeHeight.height(context, 0.05)),
                   AppinoCardSwiper(controller: controller),
