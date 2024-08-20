@@ -1,16 +1,30 @@
-# underwater_discover_appdevdiva
+# Flip Card Discover App
 
-A new Flutter project.
+### Under Water Discover - Explore the natural wonders of the world 🌏 
 
-## Getting Started
+**Flip Card Discover App** is an interactive app that brings the fascinating world of underwater creatures to life. 
 
-This project is a starting point for a Flutter application.
+- Each card features a different underwater creature, Swipe through the flip cards to view different underwater creatures.
+- Each card automatically plays a short video of the creature.
+- Tap on a card to view the creature's video in full-screen mode, with additional details and a "More Detail" button.
 
-A few resources to get you started if this is your first Flutter project:
+  
+## Screenshots
+<div style="display: grid;  gap: 10px;">
+  <img src="https://github.com/Sehrish-Gulzar/underwater_discover/blob/main/assets/images/Screenshot_20240512_023706.png" alt="Flip Card Screen 1" style="width: 25%;"/>
+  <img src="https://github.com/Sehrish-Gulzar/underwater_discover/blob/main/assets/images/Screenshot_20240512_023733.png" style="width: 25%;"/>
+  </div>
+<div style="display: grid;  gap: 10px;">
+  <img src="https://github.com/Sehrish-Gulzar/underwater_discover/blob/main/assets/images/ss%20(2).jpg" style="width: 25%;"/>
+  <img src="https://github.com/Sehrish-Gulzar/underwater_discover/blob/main/assets/images/ss%20(4).jpg" style="width: 25%;"/>
+  </div>
+<div style="display: grid;  gap: 10px;">
+  <img src="https://github.com/Sehrish-Gulzar/underwater_discover/blob/main/assets/images/ss%20(5).jpg" style="width: 25%;"/>
+  <img src="https://github.com/Sehrish-Gulzar/underwater_discover/blob/main/assets/images/ss%20(6).jpg" style="width: 25%;"/>
+  
+</div>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## LinkedIn Video Post
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Check out my LinkedIn post for a brief overview of the app: [LinkedIn Video Post](https://www.linkedin.com/posts/sehrish-gulzar-a543962bb_flutterdeveloper-androiddeveloper-iosdeveloper-activity-7195199234650865664-N-oz?utm_source=share&utm_medium=member_desktop)
+
